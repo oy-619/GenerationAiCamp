@@ -1,0 +1,67 @@
+[flake8]
+# 最大行長を100文字に設定（現代的な開発環境に適合）
+max-line-length = 100
+
+# 除外するディレクトリとファイル
+exclude =
+    .git,
+    __pycache__,
+    .venv,
+    env,
+    venv,
+    .tox,
+    .coverage,
+    .coverage.*,
+    .cache,
+    nosetests.xml,
+    coverage.xml,
+    *.cover,
+    *.py,cover,
+    .hypothesis,
+    build,
+    dist,
+    *.egg-info,
+    .pytest_cache,
+    chroma_store
+
+# 無視するエラーコード
+ignore =
+    E203,
+    W503,
+    E501,
+    W504,
+    E402,
+    F401,
+    E302,
+    E305
+
+# 1行あたりの複雑度制限
+max-complexity = 12
+
+# インデントサイズ
+indent-size = 4
+
+# 各行での最大変数数
+max-local-variables = 15
+
+# 関数の最大引数数
+max-arguments = 8
+
+# ネストの最大深度
+max-nested-blocks = 5
+
+# 特定のファイルパターンに対する追加設定
+per-file-ignores =
+    __init__.py:F401,
+    */migrations/*.py:E501,F401,
+    */tests/*.py:F401,F841,
+    test_*.py:F401,F841,
+    *_test.py:F401,F841
+
+# 適用するチェック項目
+select =
+    E,   # pycodestyle errors
+    W,   # pycodestyle warnings
+    F,   # pyflakes
+    C,   # mccabe complexity
+    N    # pep8-naming

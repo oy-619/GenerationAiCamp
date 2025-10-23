@@ -1,0 +1,58 @@
+{
+  "python.defaultInterpreterPath": "./venv/Scripts/python.exe",
+  "python.terminal.activateEnvironment": true,
+  "python.analysis.extraPaths": [
+    "./Lesson25/uma3soft-app/src",
+    "./Lesson21",
+    "./Lesson23/company_inner_search_app",
+    "./Lesson25/uma3soft-app"
+  ],
+  "python.testing.unittestEnabled": true,
+  "python.testing.unittestArgs": [
+    "-v",
+    "-s",
+    "./",
+    "-p",
+    "test_*.py"
+  ],
+  // Flake8 設定
+  "python.linting.enabled": true,
+  "python.linting.flake8Enabled": true,
+  "python.linting.pylintEnabled": false,
+  "python.linting.flake8Path": "flake8",
+  "python.linting.flake8Args": [
+    "--config=.flake8"
+  ],
+  "python.linting.lintOnSave": true,
+  "python.linting.maxNumberOfProblems": 100,
+  // Formatter設定（Blackと連携）
+  "python.formatting.provider": "black",
+  "python.formatting.blackArgs": [
+    "--line-length=100",
+    "--target-version=py38"
+  ],
+  // Auto format on save
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+  // ファイル除外設定
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/*.pyc": true,
+    "**/.pytest_cache": true,
+    "**/env": true,
+    "venv": false,
+    "**/chroma_store": true,
+    "**/.coverage": true,
+    "**/*.egg-info": true
+  },
+  // エディタ設定
+  "editor.rulers": [
+    100
+  ],
+  "python.analysis.typeCheckingMode": "basic",
+  // デバッグ設定
+  "debug.console.fontSize": 14,
+  "debug.internalConsoleOptions": "openOnSessionStart"
+}

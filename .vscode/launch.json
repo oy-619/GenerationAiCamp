@@ -1,0 +1,45 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: Current File",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "justMyCode": true
+    },
+    {
+      "name": "Flask Bot DEBUG (Lesson25)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/Lesson25/uma3soft-app/src/uma3.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "FLASK_APP": "src/uma3.py",
+        "FLASK_ENV": "development",
+        "FLASK_DEBUG": "1"
+      },
+      "justMyCode": true,
+      "python": "${workspaceFolder}/env/Scripts/python.exe"
+    },
+    {
+      "name": "Flask Bot + ngrok DEBUG (Lesson25)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/Lesson25/uma3soft-app/src/uma3.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "FLASK_APP": "src/uma3.py",
+        "FLASK_ENV": "development",
+        "FLASK_DEBUG": "1"
+      },
+      "justMyCode": true,
+      "python": "${workspaceFolder}/env/Scripts/python.exe",
+      "preLaunchTask": "Clean Start ngrok (Lesson25)"
+    }
+  ]
+}

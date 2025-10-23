@@ -1,0 +1,74 @@
+{
+    "folders": [
+        {
+            "name": "GenerationAiCamp Root",
+            "path": "."
+        },
+        {
+            "name": "uma3soft-app",
+            "path": "./Lesson25/uma3soft-app"
+        }
+    ],
+    "settings": {
+        "python.defaultInterpreterPath": "./venv/Scripts/python.exe",
+        "python.terminal.activateEnvironment": true,
+        "python.analysis.extraPaths": [
+            "./Lesson25/uma3soft-app/src",
+            "./Lesson21",
+            "./Lesson23/company_inner_search_app",
+            "./Lesson25/uma3soft-app"
+        ],
+        "terminal.integrated.defaultProfile.windows": "PowerShell",
+        "files.exclude": {
+            "**/__pycache__": true,
+            "**/*.pyc": true,
+            "**/env": true,
+            "venv": false
+        }
+    },
+    "launch": {
+        "version": "0.2.0",
+        "configurations": [
+            {
+                "name": "Python: Current File",
+                "type": "debugpy",
+                "request": "launch",
+                "program": "${file}",
+                "console": "integratedTerminal",
+                "cwd": "${workspaceFolder}",
+                "justMyCode": true
+            },
+            {
+                "name": "🤖 Flask Bot DEBUG",
+                "type": "debugpy",
+                "request": "launch",
+                "program": "${workspaceFolder}/Lesson25/uma3soft-app/src/uma3.py",
+                "console": "integratedTerminal",
+                "cwd": "${workspaceFolder}/Lesson25/uma3soft-app",
+                "env": {
+                    "FLASK_APP": "src/uma3.py",
+                    "FLASK_ENV": "development",
+                    "FLASK_DEBUG": "1"
+                },
+                "justMyCode": true,
+                "python": "${workspaceFolder}/venv/Scripts/python.exe"
+            },
+            {
+                "name": "🚀 Flask Bot + ngrok DEBUG",
+                "type": "debugpy",
+                "request": "launch",
+                "program": "${workspaceFolder}/Lesson25/uma3soft-app/src/uma3.py",
+                "console": "integratedTerminal",
+                "cwd": "${workspaceFolder}/Lesson25/uma3soft-app",
+                "env": {
+                    "FLASK_APP": "src/uma3.py",
+                    "FLASK_ENV": "development",
+                    "FLASK_DEBUG": "1"
+                },
+                "justMyCode": true,
+                "python": "${workspaceFolder}/venv/Scripts/python.exe",
+                "preLaunchTask": "Start ngrok (Lesson25)"
+            }
+        ]
+    }
+}
