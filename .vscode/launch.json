@@ -23,7 +23,7 @@
         "FLASK_DEBUG": "1"
       },
       "justMyCode": true,
-      "python": "${workspaceFolder}/env/Scripts/python.exe"
+      "python": "${workspaceFolder}/venv/Scripts/python.exe"
     },
     {
       "name": "Flask Bot + ngrok DEBUG (Lesson25)",
@@ -38,7 +38,7 @@
         "FLASK_DEBUG": "1"
       },
       "justMyCode": true,
-      "python": "${workspaceFolder}/env/Scripts/python.exe",
+      "python": "${workspaceFolder}/venv/Scripts/python.exe",
       "preLaunchTask": "Clean Start ngrok (Lesson25)"
     }
   ]
