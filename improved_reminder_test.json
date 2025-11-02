@@ -1,0 +1,295 @@
+{
+  "type": "flex",
+  "altText": "【調整さん】📝 参加可否のご回答をお願いします（明日期限） - 2025年11月01日(土)",
+  "contents": {
+    "type": "bubble",
+    "size": "mega",
+    "header": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "🚨 調整さん確認依頼",
+          "weight": "bold",
+          "size": "lg",
+          "color": "#FFFFFF",
+          "align": "center"
+        },
+        {
+          "type": "text",
+          "text": "📝 参加可否のご回答をお願いします（明日期限）",
+          "weight": "regular",
+          "size": "sm",
+          "color": "#FFFFFF",
+          "wrap": true,
+          "align": "center",
+          "margin": "sm"
+        }
+      ],
+      "backgroundColor": "#FF5722",
+      "paddingAll": "20px"
+    },
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "spacing": "lg",
+      "contents": [
+        {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "md",
+          "contents": [
+            {
+              "type": "text",
+              "text": "🚨 参加・欠席のご回答期限が迫っています",
+              "size": "md",
+              "weight": "bold",
+              "color": "#FF5722",
+              "align": "center"
+            },
+            {
+              "type": "text",
+              "text": "お忙しい中恐れ入りますが、参加可否のご回答をお願いいたします。",
+              "size": "sm",
+              "color": "#666666",
+              "align": "center",
+              "wrap": true,
+              "margin": "sm"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "horizontal",
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "📅",
+                      "size": "md",
+                      "flex": 1
+                    },
+                    {
+                      "type": "text",
+                      "text": "2025年11月01日(土)",
+                      "size": "md",
+                      "weight": "bold",
+                      "color": "#333333",
+                      "flex": 6
+                    }
+                  ]
+                }
+              ],
+              "backgroundColor": "#F5F5F5",
+              "paddingAll": "15px",
+              "cornerRadius": "8px",
+              "margin": "md"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "📍",
+                  "size": "md",
+                  "flex": 1
+                },
+                {
+                  "type": "text",
+                  "text": "東京ドーム",
+                  "size": "sm",
+                  "color": "#333333",
+                  "flex": 6,
+                  "wrap": true
+                }
+              ],
+              "backgroundColor": "#F5F5F5",
+              "paddingAll": "12px",
+              "cornerRadius": "6px",
+              "margin": "sm"
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "spacing": "xs",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "• 持ち物：グローブ、バット、飲み物",
+                  "size": "xs",
+                  "color": "#555555",
+                  "wrap": true
+                },
+                {
+                  "type": "text",
+                  "text": "• 注意：雨天時は体育館に変更",
+                  "size": "xs",
+                  "color": "#555555",
+                  "wrap": true
+                },
+                {
+                  "type": "text",
+                  "text": "• 集合時間：17:45",
+                  "size": "xs",
+                  "color": "#555555",
+                  "wrap": true
+                }
+              ],
+              "backgroundColor": "#FAFAFA",
+              "paddingAll": "10px",
+              "cornerRadius": "6px",
+              "margin": "sm"
+            }
+          ]
+        },
+        {
+          "type": "separator",
+          "margin": "lg"
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "text",
+              "text": "🌤️ 会場の天候予報（参考情報）",
+              "size": "sm",
+              "weight": "bold",
+              "color": "#4A5568"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "spacing": "xs",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "📍",
+                  "size": "xs",
+                  "flex": 1
+                },
+                {
+                  "type": "text",
+                  "text": "東京都: 15.2°C",
+                  "size": "xs",
+                  "color": "#2D3748",
+                  "flex": 6,
+                  "wrap": true
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "spacing": "sm",
+              "margin": "xs",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "flex": 1,
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "💧 湿度",
+                      "size": "xxs",
+                      "color": "#718096"
+                    },
+                    {
+                      "type": "text",
+                      "text": "66%",
+                      "size": "xxs",
+                      "color": "#2D3748",
+                      "weight": "bold"
+                    }
+                  ]
+                },
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "flex": 1,
+                  "contents": [
+                    {
+                      "type": "text",
+                      "text": "☔ 降水確率",
+                      "size": "xxs",
+                      "color": "#718096"
+                    },
+                    {
+                      "type": "text",
+                      "text": "0%",
+                      "size": "xxs",
+                      "color": "#2D3748",
+                      "weight": "bold"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "spacing": "xs",
+              "margin": "xs",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "💡",
+                  "size": "xs",
+                  "flex": 1
+                },
+                {
+                  "type": "text",
+                  "text": "天候に応じた準備をお願いします",
+                  "size": "xs",
+                  "color": "#2B6CB0",
+                  "flex": 6,
+                  "wrap": true
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "※ 天候により変更の可能性があります",
+              "size": "xxs",
+              "color": "#A0AEC0",
+              "align": "center",
+              "margin": "sm"
+            }
+          ],
+          "backgroundColor": "#F7FAFC",
+          "paddingAll": "12px",
+          "cornerRadius": "6px"
+        }
+      ]
+    },
+    "footer": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "⚠️ 入力期限が迫っています",
+          "size": "sm",
+          "color": "#666666",
+          "align": "center",
+          "weight": "bold"
+        },
+        {
+          "type": "text",
+          "text": "詳細は個別にご確認ください（田中太郎）",
+          "size": "xs",
+          "color": "#999999",
+          "align": "center",
+          "margin": "xs"
+        }
+      ],
+      "paddingAll": "15px"
+    }
+  }
+}
