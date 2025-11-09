@@ -1,0 +1,9 @@
+{
+  "export_date": "2025-11-02T10:42:08.583665",
+  "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "project_root": "C:\\work\\ws_python\\GenerationAiCamp\\Lesson25",
+  "databases": {
+    "conversation_db_exists": false,
+    "chroma_db_exists": false
+  }
+}
